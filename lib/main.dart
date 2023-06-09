@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(title: Text('Learning Journeys')),
+        appBar: AppBar(title: Text('Your Learning Journeys')),
         body: Card(
           child: Column(
             children: <Widget>[
