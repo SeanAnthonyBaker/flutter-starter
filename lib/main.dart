@@ -16,9 +16,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(title: Text('Your Learning Journeys')),
         body: Card(
           child: Column(
-            children: <Widget>[
-              Image.asset('assets/images/Tulkah.jpg'),
-            ],
+            children: <Widget>[Image.asset('assets/images/Tulkah.jpg'), Row()],
           ),
         ),
       ),
