@@ -39,6 +39,7 @@ flutter:
     - lang/ar.json
     - lang/en.json
     - assets/images/user.png
+    - assets/images/Tulkah.jpg
 
   fonts:
     - family: Tajawal

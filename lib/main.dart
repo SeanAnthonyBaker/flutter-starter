@@ -8,12 +8,20 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: Scaffold(
+        appBar: AppBar(title: Text('Learning Journeys')),
+        body: Card(
+          child: Column(
+            children: <Widget>[
+              Image.asset('assets/images/Tulkah.jpg'),
+            ],
+          ),
         ),
-        home: Scaffold(
-          appBar: AppBar(title: Text('Flutter Demo')),
-        ));
+      ),
+    );
   }
 }
